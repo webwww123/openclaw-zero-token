@@ -110,7 +110,7 @@ jobs:
         with:
           name: dist-build
           path: dist/
-          retention-days: 1
+          retention-days: 3
 
   # Validate npm pack contents after build (only on push to main, not PRs).
   release-check:
